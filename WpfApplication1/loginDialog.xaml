@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApplication1.loginDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login"  Height="300" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="resources/icon.png">
+    <Canvas>
+        <Image Source="resources/loginBG.png" Canvas.Left="38"/>
+        <Label Name="userLabel" Content="Username" HorizontalAlignment="Left"  VerticalAlignment="Center" MinHeight="26" VerticalContentAlignment="center" Canvas.Left="193" Canvas.Top="143" />
+        <Label Name="passLabel" Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="196" Canvas.Top="174" HorizontalContentAlignment="Left"/>
+
+        <TextBox Name="userTexbox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="26" Canvas.Left="285" Canvas.Top="143"/>
+        <PasswordBox Name="passwordbox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="26" Canvas.Left="285" Canvas.Top="174" />
+        <Button IsDefault="True" Name="enterButton" Click="enterButton_Click" Content="Enter" HorizontalAlignment="Left" VerticalAlignment="Top"  Height="23" Width="70" Canvas.Left="240" Canvas.Top="224"  />
+        <Button IsCancel="True" Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="70" Canvas.Left="315" Canvas.Top="224"  />
+
+
+    </Canvas>
+</Window>

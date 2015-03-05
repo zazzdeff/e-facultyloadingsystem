@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="eflsModelStoreContainer" CdmEntityContainer="eflsEntities1">
+    <EntitySetMapping Name="facultyDatas">
+      <EntityTypeMapping TypeName="eflsModel.facultyData">
+        <MappingFragment StoreEntitySet="facultyData">
+          <ScalarProperty Name="facultyID" ColumnName="facultyID" />
+          <ScalarProperty Name="term" ColumnName="term" />
+          <ScalarProperty Name="academicYear" ColumnName="academicYear" />
+          <ScalarProperty Name="program" ColumnName="program" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="middleName" ColumnName="middleName" />
+          <ScalarProperty Name="dateOfBirth" ColumnName="dateOfBirth" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="rank" ColumnName="rank" />
+          <ScalarProperty Name="yearsOfTeachingS" ColumnName="yearsOfTeachingS" />
+          <ScalarProperty Name="yearsOfTeachingO" ColumnName="yearsOfTeachingO" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="services" ColumnName="services" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eflsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="eflsModelStoreContainer">
+    <EntitySet Name="facultyData" EntityType="eflsModel.Store.facultyData" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="facultyData">
+    <Key>
+      <PropertyRef Name="facultyID" />
+    </Key>
+    <Property Name="facultyID" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="term" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="academicYear" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="program" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="lastName" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="firstName" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="middleName" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="dateOfBirth" Type="date" Nullable="false" />
+    <Property Name="age" Type="int" Nullable="false" />
+    <Property Name="rank" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="yearsOfTeachingS" Type="int" Nullable="false" />
+    <Property Name="yearsOfTeachingO" Type="int" Nullable="false" />
+    <Property Name="status" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="services" Type="varchar" Nullable="false" MaxLength="1" />
+  </EntityType>
+</Schema>
