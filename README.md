@@ -7,4 +7,4 @@ Features:
 -generates a report that shows the assigned schedule of a faculty
 -allows insert and remove of individual schedule for a faculty
 -generates a report that presents all the faculty in the database that is grouped according to their respective position.
--generates a report that presents all the course schedules assigned and calcutes the total load for each faculty.
+-generates a report that presents all the course schedules assigned and calculates the total load for each faculty.
